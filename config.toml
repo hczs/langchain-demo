@@ -1,0 +1,11 @@
+[env]
+# 这两个配置是记录程序调用轨迹的，不需要可以不添加
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=""
+
+# 申请地址：https://aistudio.google.com/app/apikey
+GOOGLE_API_KEY = ""
+
+# 如有需要 可设置代理
+HTTP_PROXY = "http://192.168.31.121:7890"
+HTTPS_PROXY = "http://192.168.31.121:7890"
