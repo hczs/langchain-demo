@@ -1,4 +1,4 @@
-# langchain 官网的一些 demo
+# LangChain 官网的入门 demo
 基于官网最新版 langchain v0.3 + Gemini 来写。
 
 ## 预先准备
@@ -17,6 +17,8 @@
 
 LangGraph编排
 - 构建一个带记忆的聊天机器人：[chat_bot.ipynb](orchestration/chat_bot.ipynb)
+- 构建一个带记忆的 Agent（需配置 TAVILY_API_KEY）：[agent.ipynb](orchestration/agent.ipynb)
+
 
 ## 参考资料
 - 官方教程文档：https://python.langchain.com/docs/tutorials/

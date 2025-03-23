@@ -6,6 +6,9 @@ LANGSMITH_API_KEY=""
 # 申请地址：https://aistudio.google.com/app/apikey
 GOOGLE_API_KEY = ""
 
+# 搜索引擎 API key agent 工具调用的时候需要，注册地址（登录就有）：https://app.tavily.com/home
+TAVILY_API_KEY = ""
+
 # 如有需要 可设置代理
 HTTP_PROXY = "http://192.168.31.121:7890"
 HTTPS_PROXY = "http://192.168.31.121:7890"
