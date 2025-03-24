@@ -9,7 +9,7 @@ def load_env():
     """
     # 找到项目根路径
     project_root = Path.cwd().parent
-    file_path = project_root / "config.toml"
+    file_path = project_root / "config/config.toml"
     try:
         with open(file_path, "rb") as f:
             config = tomllib.load(f)
