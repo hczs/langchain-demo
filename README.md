@@ -9,6 +9,13 @@
 ### 配置
 配置 `config.toml` 文件，把申请到的谷歌 API KEY 填入即可。
 
+### 启动
+1. 安装依赖
+```shell
+uv sync
+```
+2. 在 vscode 中打开 ipynb 文件即可
+
 ## 进度
 基础组件使用
 - 聊天模型调用和提示词模板使用：[chat_and_prompts.ipynb](components/chat_and_prompts.ipynb)
