@@ -11,9 +11,17 @@
 
 ### 启动
 1. 安装依赖
-```shell
-uv sync
-```
+    ```shell
+    # 安装 uv 参考 https://github.com/astral-sh/uv?tab=readme-ov-file#installation
+    # On Windows.
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+    # On macOS and Linux.
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+
+    # 安装项目依赖
+    uv sync
+    ```
 2. 在 vscode 中打开 ipynb 文件即可
 
 ## 进度
@@ -25,7 +33,7 @@ uv sync
 LangGraph编排
 - 构建一个带记忆的聊天机器人：[chat_bot.ipynb](orchestration/chat_bot.ipynb)
 - 构建一个带记忆的 Agent（需配置 TAVILY_API_KEY）：[agent.ipynb](orchestration/agent.ipynb)
-
+- RAG 应用 part1（提问、检索、回答）：[rag_part1.ipynb](orchestration/rag_part1.ipynb)
 
 ## 参考资料
 - 官方教程文档：https://python.langchain.com/docs/tutorials/
